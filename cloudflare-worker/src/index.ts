@@ -1,4 +1,4 @@
-import { Hono } from 'hono';
+//import { Hono } from 'hono';
 const app = new Hono();
 
 app.get('/healthcheck', async c => {
@@ -22,7 +22,7 @@ app.post('/llm', async (c: any) => {
 });
 
 app.onError((err: any, c) => {
-	console.log('err : ', err);
+	//console.log('err : ', err);
 	return c.text(err.message, err.status ? err.status : 500);
 });
 
