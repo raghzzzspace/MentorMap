@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@cloudflare/ai": "^1.2.2",
+    "@google/generative-ai": "^0.21.0",
     "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
     "chance": "^1.1.11",
@@ -20,6 +22,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "hono": "^4.4.10",
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.7.0",
@@ -32,9 +35,7 @@
     "nodemon": "^3.1.4",
     "sharp": "^0.33.4",
     "socket.io": "^4.7.5",
-    "vercel": "^34.2.7",
-    "@cloudflare/ai": "^1.2.2",
-    "hono": "^4.4.10"
+    "vercel": "^34.2.7"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240620.0",
